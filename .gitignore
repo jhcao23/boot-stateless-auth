@@ -1,9 +1,11 @@
 .gradle
-build
+build/
+dist/
 .idea
 *.iml
-.settings
+.settings/
 .classpath
 .project
 /bin
 gradle.properties
+src/main/resources/application.properties
