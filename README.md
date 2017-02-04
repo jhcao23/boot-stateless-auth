@@ -3,6 +3,7 @@ boot-stateless-auth
 
 folked from https://github.com/Robbert1/boot-stateless-auth
 updated to latest versions including spring boot 1.5.1
+delete Test as I can't run through due to the breaking change of Spring Boot Test
 
 Needs Gradle 3 and JDK 7
 
