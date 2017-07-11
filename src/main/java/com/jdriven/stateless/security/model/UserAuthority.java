@@ -1,6 +1,10 @@
-package com.jdriven.stateless.security;
+package com.jdriven.stateless.security.model;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.Id;
+import javax.persistence.IdClass;
+import javax.persistence.ManyToOne;
 import javax.validation.constraints.NotNull;
 
 import org.springframework.security.core.GrantedAuthority;

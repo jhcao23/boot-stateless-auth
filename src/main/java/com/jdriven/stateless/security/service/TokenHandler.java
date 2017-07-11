@@ -1,4 +1,4 @@
-package com.jdriven.stateless.security;
+package com.jdriven.stateless.security.service;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -13,6 +13,7 @@ import javax.xml.bind.DatatypeConverter;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.jdriven.stateless.security.model.User;
 
 public final class TokenHandler {
 

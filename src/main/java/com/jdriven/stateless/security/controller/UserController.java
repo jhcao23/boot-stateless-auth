@@ -1,4 +1,4 @@
-package com.jdriven.stateless.security;
+package com.jdriven.stateless.security.controller;
 
 import java.util.List;
 
@@ -13,6 +13,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.jdriven.stateless.security.model.User;
+import com.jdriven.stateless.security.model.UserRole;
+import com.jdriven.stateless.security.repository.UserRepository;
+import com.jdriven.stateless.security.security.UserAuthentication;
 
 @RestController
 public class UserController {

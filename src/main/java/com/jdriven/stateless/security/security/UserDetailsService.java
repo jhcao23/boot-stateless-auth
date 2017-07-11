@@ -1,9 +1,12 @@
-package com.jdriven.stateless.security;
+package com.jdriven.stateless.security.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AccountStatusUserDetailsChecker;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
+
+import com.jdriven.stateless.security.model.User;
+import com.jdriven.stateless.security.repository.UserRepository;
 
 @Service
 public class UserDetailsService implements org.springframework.security.core.userdetails.UserDetailsService {

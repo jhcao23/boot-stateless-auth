@@ -12,13 +12,17 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.filter.CharacterEncodingFilter;
 
+import com.jdriven.stateless.security.model.User;
+import com.jdriven.stateless.security.model.UserRole;
+import com.jdriven.stateless.security.repository.UserRepository;
+
 @EnableAutoConfiguration
 @Configuration
 @ComponentScan
-public class StatelessAuthentication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StatelessAuthentication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 	@Bean

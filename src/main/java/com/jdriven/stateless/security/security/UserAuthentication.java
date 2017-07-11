@@ -1,9 +1,11 @@
-package com.jdriven.stateless.security;
+package com.jdriven.stateless.security.security;
 
 import java.util.Collection;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
+
+import com.jdriven.stateless.security.model.User;
 
 public class UserAuthentication implements Authentication {
 

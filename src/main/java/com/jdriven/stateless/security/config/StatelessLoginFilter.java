@@ -1,4 +1,4 @@
-package com.jdriven.stateless.security;
+package com.jdriven.stateless.security.config;
 
 import java.io.IOException;
 
@@ -16,6 +16,10 @@ import org.springframework.security.web.authentication.AbstractAuthenticationPro
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.jdriven.stateless.security.model.User;
+import com.jdriven.stateless.security.security.UserAuthentication;
+import com.jdriven.stateless.security.security.UserDetailsService;
+import com.jdriven.stateless.security.service.TokenAuthenticationService;
 
 class StatelessLoginFilter extends AbstractAuthenticationProcessingFilter {
 
